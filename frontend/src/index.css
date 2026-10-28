@@ -1,0 +1,34 @@
+:root {
+  --paper: #f6f3ec;
+  --surface: #fffdf8;
+  --ink: #1b1a17;
+  --muted: #6f6a60;
+  --line: #e2ddd1;
+  --grid: #ebe6da;
+  --accent: #e8552a;      /* calories / primary */
+  --cal: #e8552a;
+  --protein: #1f7a6d;     /* protein */
+  --carbs: #d9a21b;
+  --fat: #7a5cc4;
+  --weight-dot: #9b958a;
+  --danger: #b42318;
+  --radius-lg: 18px;
+  --radius-sm: 8px;
+  --shadow: 0 1px 0 rgba(27, 26, 23, 0.04), 0 8px 24px -12px rgba(27, 26, 23, 0.18);
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+button, input, select { font: inherit; }
